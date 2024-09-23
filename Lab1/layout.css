@@ -19,16 +19,8 @@ header{
 }
 
 nav {
+    height: 200px;
     width: 20%;
-    float: left;
-    padding: 10px;
-    background-color: rgb(240, 240, 121);
-    border: 1px solid gray;
-    text-align: center;
-}
-
-article {
-    width: 60%;
     float: left;
     padding: 10px;
     background-color: #A3DEFF;
@@ -36,11 +28,22 @@ article {
     text-align: center;
 }
 
-div {
-    width: 20%;
+article {
+    height: 200px;
+    width: 60%;
     float: left;
     padding: 10px;
     background-color: rgb(240, 240, 121);
+    border: 1px solid gray;
+    text-align: center;
+}
+
+div {
+    height: 200px;
+    width: 20%;
+    float: left;
+    padding: 10px;
+    background-color: #A3DEFF;
     border: 1px solid gray;
     text-align: center;
 }
